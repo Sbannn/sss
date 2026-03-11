@@ -1,0 +1,61 @@
+{
+  "clients": {
+    "3735F99C": {
+      "name": "Андрей",
+      "phone": "123",
+      "email": "123@mail.ru"
+    },
+    "E6795873": {
+      "name": "Кирилл",
+      "phone": "345",
+      "email": "334@mail.ru"
+    }
+  },
+  "orders": {
+    "О-1520E5": {
+      "date": "11.03.2026",
+      "client_id": "3735F99C",
+      "photos": [
+        {
+          "format": "A4",
+          "count": 10
+        }
+      ],
+      "status": "Выдан",
+      "total": 600.0
+    },
+    "О-E00807": {
+      "date": "11.03.2026",
+      "client_id": "E6795873",
+      "photos": [
+        {
+          "format": "20x30",
+          "count": 5
+        }
+      ],
+      "status": "Оплачен",
+      "total": 225.0
+    }
+  },
+  "payments": {
+    "П-4DA527": {
+      "order_number": "О-1520E5",
+      "payment_method": "Банковская карта",
+      "amount": 600.0,
+      "status": "Оплачен"
+    },
+    "П-57EE21": {
+      "order_number": "О-E00807",
+      "payment_method": "Наличные",
+      "amount": 225.0,
+      "status": "Оплачен"
+    }
+  },
+  "price_list": {
+    "10x15": 15.0,
+    "15x20": 25.0,
+    "20x30": 45.0,
+    "A4": 60.0,
+    "A3": 90.0
+  }
+}
